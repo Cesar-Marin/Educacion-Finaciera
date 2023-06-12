@@ -9,14 +9,14 @@
 </head>
 <body>
     <header>
-        <h1>Plataforma de Educación Financiera <img src="/img/finance.png" alt="Logo de la plataforma de educación financiera"></h1>
+        <h1>Plataforma de Educación Financiera <img src="./img/finance.png" alt="Logo de la plataforma de educación financiera"></h1>
             
         <nav>
           <ul>
             <li><a href="../index.html"><i class="fas fa-home"></i> Inicio</a></li>
-            <li><a href="Videos.html"><i class="fas fa-video"></i> Videos</a></li>
-            <li><a href="Herramientas.html"><i class="fas fa-tools"></i> Herramientas</a></li>
-            <li><a href="Tutoriales.html"><i class="fas fa-graduation-cap"></i> Tutoriales</a></li>
+            <li><a href="./Videos.html"><i class="fas fa-video"></i> Videos</a></li>
+            <li><a href="./Herramientas.html"><i class="fas fa-tools"></i> Herramientas</a></li>
+            <li><a href="./Tutoriales.html"><i class="fas fa-graduation-cap"></i> Tutoriales</a></li>
            
           </ul>
         </nav>
@@ -27,15 +27,15 @@
     <section id="contenido">
       <h2>Artículos</h2>
       <p>A continuación, encontrarás tres artículos sobre educación financiera en formato PDF:</p>
-      <div class="pdf-container" onclick="showPDF('1.pdf')">
+      <div class="pdf-container" onclick="showPDF('./1.pdf')">
         Haz clic aquí para ver el articulo de <span>"Educación financiera una alternativa para promover cambios 
         significativos en la calidad de vida de la sociedad"</span>
       </div>
-        <div class="pdf-container" onclick="showPDF('2.pdf')">
+        <div class="pdf-container" onclick="showPDF('./2.pdf')">
             Haz clic aquí para ver el PDF de <span>"Una mirada a la educación financiera"</span>
             </div>
 
-            <div class="pdf-container" onclick="showPDF('3.pdf')">
+            <div class="pdf-container" onclick="showPDF('./3.pdf')">
                 Haz clic aquí para ver el PDF de <span>"Educación financiera en México"</span>
                 </div>
 
@@ -44,7 +44,8 @@
 
   <footer>
     <p>© 2023 Plataforma de Educación Financiera. Todos los derechos reservados.</p>
-    <p><a href="contacto.html">Contacto</a></p>
+    <p><a href="../contacto.html">Contacto</a></p>
+</footer>
   </footer>
   <script>
     function showPDF(pdfURL) {
