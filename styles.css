@@ -1,0 +1,317 @@
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+ 
+  
+}
+header > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > h1 img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+
+ nav{
+  background-color: #f2f2f2;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 30px;
+  
+ }
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+/* Estilos del contenido principal */
+main {
+  padding: 20px;
+}
+
+#destacado {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+#destacado h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#temas, #recursos {
+  margin-bottom: 30px;
+}
+
+#temas ul, #recursos ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 30px;
+  
+}
+
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+section > ul > li {
+
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  background-color: #f2f2f2;
+
+
+}
+ul > li > a > h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+
+}
+
+ul > li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul > li > a > img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: #333;
+}
+ul > li:hover {
+  box-shadow: 0 0 15px rgba(0,0,250,0.3);
+  cursor: pointer;
+
+  
+}
+
+/* Estilos del contenido principal */
+main {
+  padding: 20px;
+}
+
+#destacado {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+#destacado h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#temas, #recursos {
+  margin-bottom: 30px;
+}
+
+#temas ul, #recursos ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 30px;
+ 
+  
+}
+
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+section > ul > li {
+
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  background-color: #f2f2f2;
+
+
+}
+ul > li > h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+
+}
+
+ul > li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul > li > img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+ul > li:hover {
+  box-shadow: 0 0 15px rgba(0,0,250,0.3);
+  cursor: pointer;
+
+  
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: #333;
+}
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-evenly;
+  padding: 5px;
+
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  
+  
+}
+
+.contact-list li i {
+  margin-right: 10px;
+  font-size: 1.5em;
+
+
+}
+
+.contact-list li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-list li a:hover {
+  color: #007bff;
+}
+.contenido-contacto {
+  padding-bottom: 26.25%;
+}
