@@ -1,0 +1,131 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Estilos del encabezado */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+ 
+  
+}
+header > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > h1 img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+
+ nav{
+  background-color: #f2f2f2;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 30px;
+  
+ }
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+
+/* Estilos del contenido principal */
+main {
+  padding: 20px;
+}
+
+#contenido {
+  margin-bottom: 30px;
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+#contenido h2 {
+  margin-bottom: 20px;
+}
+
+#contenido ol {
+  margin-left: 20px;
+}
+
+#contenido li {
+  margin-bottom: 10px;
+}
+
+#contenido p iframe {
+  margin-top: 20px;
+  
+}
+.video-container {
+  position: relative;
+  padding-bottom: 26.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+display: flex;
+justify-content: center;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 10px 0;
+}
+.pdf-container {
+  width: 100%;
+  height: 100px;
+
+}
+
+.pdf-container:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.pdf-container > div {
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.pdf-container > span {
+ color: #007bff;
+}
